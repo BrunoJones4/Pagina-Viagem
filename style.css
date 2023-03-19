@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    --webkit-font-smoothing:antialised;
+    --moz-osx-font-smoothing:grayscale;
+}
+
+body {
+    text-align: center;
+    background-image: url(./nightmare.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 160px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-bottom: 4px;
+}
+
+span {
+    color: #FFC700;
+    font-family: 'Emilys Candy', cursive;
+}
+
+h1 {
+    font-family: 'Emilys Candy', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80.13px;
+    color: #FFC700;
+    margin-bottom: 4px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 72px;
+}
+
+a {
+    padding: 12px 32px;
+    line-height: 43px;
+}
+
+#link-play {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #040101;
+    background-color: #FFC700;
+    text-decoration: none;
+}    
+
+#link-read {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.6);
+}
